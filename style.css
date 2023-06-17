@@ -29,8 +29,9 @@
   
   .hero-section{
     align-items: flex-start;
-    background-image: linear-gradient(10deg, #1f2564 0%, #dfa9f5 100%);
-    
+    background-image: url(https://damion.club/uploads/posts/2022-01/1642528013_5-damion-club-p-fon-letopis-dlya-prezentatsii-6.jpg);
+    background-position: center;
+    background-size: cover;
     display: flex;
     min-height: 100%;
     justify-content: center;
@@ -81,7 +82,7 @@
     right: 0;
     top: 0;
     transform-origin: center;
-    trsnsform: scale(1) translateZ(0);
+    transform: scale(1) translateZ(0);
     transition: 
       filter 200ms linear,
       transform 200ms linear;
@@ -118,9 +119,17 @@
   }
   h1 {
     text-align: center;
-    background-image: url(https://sportishka.com/uploads/posts/2022-04/1650700277_1-sportishka-com-p-dostoprimechatelnosti-anglii-krasivo-foto-1.jpg);
+    background-image: url(https://www.vash-otdyh.by/images/Blog/Germany/8-old-restraunt/%D0%A1%D0%B0%D0%BC%D1%8B%D0%B9_%D1%81%D1%82%D0%B0%D1%80%D1%8B%D0%B9_%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5.jpg);
     background-position: center;
     background-size: cover;
-    padding:150px;
-    opacity: 0.9;
+    padding:300px;
 }
+p {
+    text-align: center;
+    font-size: 45px;
+    border: 4px solid black;
+    border-radius:40px;
+    background-image: url();
+    
+}
+
